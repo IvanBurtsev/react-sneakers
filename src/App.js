@@ -1,19 +1,24 @@
 import Header from './components/Header';
+
 import './App.css';
 
 const App = () => {
   return (
     <div className="wrapper clear">
     <Header/>  
-
-
-
       <div className='content p-40'>
-        <h1 className='mb-40'> Все кроссовки</h1>
-        
+        <div className='d-flex align-center mb-40 justify-between'>
+        <h1> Все кроссовки</h1> 
 
-<div className='d-flex'>
-<div className='card'>
+
+        <div className='search-block d-flex'>
+          <img src='/img/search.svg' alt='search'/>
+          <input type='text' className='search-input' placeholder='Поиск...' />
+        </div>
+       </div>
+
+ <div className='d-flex'>
+ <div className='card'>
           <img src='/img/sneakers/1.jpg' width={133} height={112} alt='sneacers'/>
           <h5>Мужские Кроссовки Nike Blazer Mid Suede</h5>
           <div className='d-flex justify-between align-center'>
@@ -70,13 +75,13 @@ const App = () => {
             <img width={11} height={11} src='/img/add.svg' alt='add'/>
           </button>
         </div>
-        </div>
-
+        </div> 
+ 
 
 
       </div>
       </div>  
-    </div>  
+     </div>  
    
   );
 }
