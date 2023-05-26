@@ -1,8 +1,9 @@
+
 const Header = () => {
     return (
             <header className='d-flex justify-between align-center'>
         <div className='d-flex align-center'>
-        <img className='logo' src='/img/logo.png' width={40} height={40} alt='logo'/>
+        <img src='/img/logo.png' width={40} height={40} alt='logo'/>
         <div>
           <h3 className="text-uppercase">React-snikers</h3>
           <p className="opacity-5">Магазин лучших кроссовок</p>
