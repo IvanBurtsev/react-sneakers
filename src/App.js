@@ -6,6 +6,45 @@ const App = () => {
   return (
     <div className="wrapper clear">
     <Header/>  
+
+
+    <div className='overlay'>
+    <div className='drawer'>
+      <h2 className='mb-30'>Корзина</h2>
+
+
+        <div  className='cartItem d-flex align-center mb-20'>
+        <div style={{backgroundImage: 'url(/img/sneakers/1.jpg)'}}  className='cartItemImg'>          
+        </div>
+        <div className='mr-20 flex'>
+          <p className='mb-5'> Мужские Кроссовки Nike Blazer Mid Suede</p>
+          <b>12 999руб.</b>
+        </div>
+        <img className='removeBtn' src='/img/btn-remove.svg' alt='btn-remove'/>
+      </div>
+
+
+
+
+
+
+
+      <div  className='cartItem d-flex align-center mb-20'>
+        <div style={{backgroundImage: 'url(/img/sneakers/1.jpg)'}}  className='cartItemImg'>          
+        </div>
+        <div className='mr-20 flex'>
+          <p className='mb-5'> Мужские Кроссовки Nike Blazer Mid Suede</p>
+          <b>12 999руб.</b>
+        </div>
+        <img className='removeBtn' src='/img/btn-remove.svg' alt='btn-remove'/>
+      </div>
+
+
+    </div>
+    </div>
+
+
+
       <div className='content p-40'>
         <div className='d-flex align-center mb-40 justify-between'>
         <h1> Все кроссовки</h1> 
