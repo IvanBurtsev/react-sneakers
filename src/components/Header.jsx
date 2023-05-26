@@ -1,7 +1,6 @@
 const Header = () => {
     return (
-      <>
-       <header className='d-flex justify-between align-center'>
+            <header className='d-flex justify-between align-center'>
         <div className='d-flex align-center'>
         <img className='logo' src='/img/logo.png' width={40} height={40} alt='logo'/>
         <div>
@@ -20,8 +19,8 @@ const Header = () => {
             </svg>
           </li>
         </ul>  
-      </header> 
-      </>
+      </header>      
     );
 }
+
  export default Header;
